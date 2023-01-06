@@ -7,3 +7,7 @@ Medication persistence refers to a patient’s continued action of taking medica
 **Project Description**
 
 A model will be established and deployed to automate identifying persistency of a certain pharmaceutical product. Records of 3,424 patients who take the medication will be used for analysis, and correlation between medication persistency and other factors such as patient demographics, provider attributes, clinical factors, and disease factors will be investigated. Finally, an optimal model to predict persistency based on above features will be selected and developed.
+
+**Weekly Progress**
+
+Percentage of unique values in each features were calculated. The dataset contains missing values as 'Unknown' which needs to be imputed. There are multiple prescriber specializations which accounts for very small portion of the feature, so they may benefit from re-binning.
